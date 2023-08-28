@@ -1,0 +1,47 @@
+.head-text {
+	width: 600px;
+	
+}
+.head-text h5 {
+	margin-top: 20px;
+	color: #0009;
+	line-height: 20px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: medium;
+}
+.head-text p {
+	font-size: 30px;
+	color: #2e2e2e;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+.head-text button{
+    font-size:20px;
+    border-radius: 20px;
+    height:70px;
+    width:300px;
+    font-family: 'Playfair Display',sans-serif;
+    color:white;
+    background-color: red;
+    cursor:pointer;
+}
+
+.head-container {
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  float:right;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  flex-wrap : wrap;
+  display: flex;
+  margin-top: 10px;
+  padding-right: 70px;
+}

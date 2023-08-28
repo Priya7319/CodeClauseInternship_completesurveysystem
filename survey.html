@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multistep form</title>
+
+  <link rel = "icon" href = 
+  "https://e7.pngegg.com/pngimages/679/736/png-clipart-computer-icons-test-survey-miscellaneous-angle-thumbnail.png" 
+          type = "image/png">
+
+  <link rel="stylesheet" href="css/survey.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  
+
+
+    <body>
+        <div class="container">
+            <header>STUDENT SURVEY FORM</header>
+
+            <div class="progress-bar">
+                <div class="step">
+                    <p>Page 1</p>
+                    <div class="bullet">
+                        <span>1</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+                <div class="step">
+                    <p>Page 2</p>
+                    <div class="bullet">
+                        <span>2</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+                <div class="step">
+                    <p>Page 3</p>
+                    <div class="bullet">
+                        <span>3</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+                <div class="step">
+                    <p>Page 4</p>
+                    <div class="bullet">
+                        <span>4</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+                <div class="step">
+                    <p>Page 5</p>
+                    <div class="bullet">
+                        <span>5</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+            </div>
+
+            <div class="form-outer">
+                <form action="php/survey.php" id="fetchForm" class="form" name="form" method="post" onsubmit="return matchPassword()" onsubmit="submitFormFetch()">
+                    <div class="page slide-page">
+                        <div class="field">
+                            <div class="label">Full Name *</div>
+                            <input type="text" name="fullname"  required/>
+                        </div>
+        
+                        <div class="field">
+                            <div class="label">University Roll No *</div>
+                            <input type="text"  name="universityrollno" required/>
+                        </div>
+                        <div class="field">
+                            <div class="label">Present Year*</div><br>
+                                <input type="radio" id="cyear" name="cyear" value="1year" required/> 
+                                <label for="1year">1st</label><br>
+                                <input type="radio" id="cyear" name="cyear" value="2year" required/>
+                                <label for="2year">2nd</label><br> 
+                                <input type="radio" id="cyear" name="cyear" value="3year" required/> 
+                                <label for="3year">3rd</label><br>
+                                <input type="radio" id="cyear" name="cyear" value="4year" required/>
+                                <label for="4year">4th</label><br>  
+                                <input type="radio" id="cyear" name="cyear" value="passout" required/>
+                                <label for="passout">Passout</label><br> 
+                        </div>
+                        
+                        <div class="field">
+                            <div class="label">College *</div>
+                            <select name="college" required>
+                                <option>Select</option>
+                                <option>Asansol Engineering College</option>
+                                <option>Vellore Institute of Technology</option>
+                                <option>Indian Insitute of Technology Kanpur</option>
+                                <option>B.C.roy Engineering College</option>
+                                <option>Kalinga Institute of Technology Bhubaneswar</option>
+                                <option>Kanyapur Polytechnic College Asansol</option>
+                                <option>NHIT Durgapur</option>
+                                <option>Heritage Insitute of Technology </option>
+                                <option>IEM kolkata</option>
+
+                            </select>
+                        </div>
+                        <div class="field">
+                            <button class="firstNext next">Next</button>
+                        </div>
+                    </div>
+
+                <div class="page">
+                    <div class="field">
+                        <div class="label">Department *</div>
+                        <select name="department" required>
+                            <option>Select</option>
+                            <option>Electronics & Communication Engineering</option>
+                            <option>AI ML</option>
+                            <option>Comuter Science & Engineering</option>
+                            <option>Electrical Engineering</option>
+                            <option>Mechanical Engineering</option>
+                            <option>Mining & Survey Engineering</option>
+                            <option>BCA</option>
+                            <option>MCA</option>
+
+                        </select>
+                    </div>
+                    <div class="field">
+                      <div class="label">How well were the teachers ready to communicate? *</div><br>
+                            <input type="radio" id="communicate" name="communicate" value="effective" required/> Always Effective   
+                            <br>  
+                            <input type="radio" id="communicate" name="communicate" value="satisfactorily" required/>Just Satisfactorily<br/>
+                            <input type="radio" id="communicate" name="communicate" value="ineffective" required/>Generally Ineffective<br/> 
+                      </div>
+
+                      <div class="field">
+                      <div class="label">How Much Syllabus Covered in the Class? *</div><br>
+                            <input type="radio" id="syllabus" name="syllabus" value="below30" required/> Below 30%    
+                            <br>  
+                            <input type="radio" id="syllabus" name="syllabus" value="30to60" required/>30-60%<br/>
+                            <input type="radio" id="syllabus" name="syllabus" value="60to90" required/>60-90%<br/> 
+                     </div>
+                        
+                        <div class="field btns">
+                            <button class="prev-1 prev">Previous</button>
+                            <button class="next-1 next">Next</button>
+                        </div>
+                </div>
+
+                <div class="page">
+                    <div class="field">
+                        <div class="label">How well did the teachers prepare for the classes? *</div><br>
+                            <input type="radio" id="preparation" name="preparation" value="thoroughly" required/> Thoroughly   
+                            <br>  
+                            <input type="radio" id="preparation" name="preparation" value="poorly" required/>Poorly<br/>
+                            <input type="radio" id="preparation" name="preparation" value="sufficient" required/>Sufficient<br/>
+                            <input type="radio" id="preparation" name="preparation" value="didnotteach" required/>Won't teach at all<br/> 
+                        </div>
+                        <div class="field">
+                            <div class="label">Fairness to evaluation process by the teachers? *</div>
+                            <select name="evaluation" required>
+                                <option>Select</option>
+                                <option>Always fair</option>
+                                <option>Usually fair</option>
+                                <option>Sometimes unfair</option>
+                                <option>Usually unfair</option>
+
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <div class="label">Was your performance in Class test discussed with you? *</div>
+                            <select name="performance" required>
+                                <option>Select</option>
+                                <option>Everytime</option>
+                                <option>Usually</option>
+                                <option>Ocassionally sometimes</option>
+                                <option>Never</option>
+
+                            </select>
+                        </div>
+                        
+
+                        <div class="field">
+                            <div class="label">Is the institue active in promoting internship,field visit? </div>
+                            <select name="active" required >
+                                <option>Select</option>
+                                <option>Regularly</option>
+                                <option>Often</option>
+                                <option>Sometimes</option>
+                                <option>rarely</option>
+
+                            </select>
+                        </div>
+
+                        <div class="field btns">
+                            <button class="prev-2 prev">Previous</button>
+                            <button class="next-2 next">Next</button>
+                        </div>
+                </div>
+
+
+                    <div class="page">
+                       
+                        <div class="field">
+                            <div class="label">Does the institue provides multiple opportunities to learn & grow? * </div>
+                            <select name="learngrow" required >
+                                <option>Select</option>
+                                <option>Strongly agree</option>
+                                <option>Neutral</option>
+                                <option>Disagree</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="field">
+                            <div class="label">Teachers inform you about course outcomes, programme outcomes? *</div><br>
+                                <input type="radio" id="outcomes" name="outcomes" value="everytime" required/> Everytimes   
+                                <br>  
+                                <input type="radio" id="outcomes" name="outcomes" value="oftenly" required/>Oftenly<br/>
+                                <input type="radio" id="outcomes" name="outcomes" value="rarely" required/>Rarely<br/>
+                                <input type="radio" id="outcomes" name="outcomes" value="sometimes" required/>Sometimes<br/> 
+                        </div>
+                            
+                        <div class="field">
+                            <div class="label">Teacher illustrate the concepts with examples & applications? *</div>
+                            <select name="examples" required>
+                                <option>Select</option>
+                                <option>Everytime</option>
+                                <option>Usually</option>
+                                <option>Ocassionally sometimes</option>
+                                <option>Never</option>
+
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <div class="label">What percentage of teachers use LCD, Projectors while teaching? *</div>
+                            <select name="projectors" required>
+                                <option>Select</option>
+                                <option>Above 90%</option>
+                                <option>60-90%</option>
+                                <option>30-60%</option>
+                                <option>Below 30%</option>
+
+                            </select>
+                        </div>
+
+                        <div class="field btns">
+                            <button class="prev-3 prev">Previous</button>
+                            <button class="next-3 next">Next</button>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <div class="field">
+                            <div class="label">The overall quality of teaching-learning in your institute is</div>
+                            <select name="overallquality" required>
+                                <option>Select</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                                <option>Average</option>
+                                <option>Poor</option>
+
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <div class="label">Give three suggestions to improve learning in your institution</div>
+                            <input type="text" name="suggestions" required/>
+                        </div>
+                        
+                        <div class="field btns">
+                            <button class="prev-4 prev">Previous</button>
+                            <button class="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="js/survey.js"></script>
+    </body>
+</html>
