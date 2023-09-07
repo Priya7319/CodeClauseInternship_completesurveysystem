@@ -34,21 +34,21 @@ some screenshots: ![image](https://github.com/Priya7319/CodeClauseInternship_com
 ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/64b2b0b7-0ed6-4e48-a368-709ec894fa20)
  Login signup page
 
-
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/ed33ba2e-c779-4ea0-a027-c6a1243e4a15) Survey form
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/0527824b-37a5-4bac-a04c-9e57ff87a427)
+Survey form
 
 
 ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/5d485386-e0be-45c8-9e59-74022b8cc2e5)
 Admin panel
 
 
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/2cf7f0fa-03b7-4b4d-8b7a-3cc0c31c4764)
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/2cf7f0fa-03b7-4b4d-8b7a-3cc0c31c4764) Insert data
 
 
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/4f1a36b1-4109-4a98-bb28-6f7259a5f382)
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/4f1a36b1-4109-4a98-bb28-6f7259a5f382) Edit data
 
 
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/9bada366-e8ac-46f3-ab0c-d1d33eb837e4)
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/9bada366-e8ac-46f3-ab0c-d1d33eb837e4) 
 
 
 
