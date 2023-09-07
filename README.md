@@ -39,20 +39,23 @@ Survey form
 
 
 ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/5d485386-e0be-45c8-9e59-74022b8cc2e5)
-Admin panel
+Admin Dashboard
 
 
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/2cf7f0fa-03b7-4b4d-8b7a-3cc0c31c4764) Insert data
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/2cf7f0fa-03b7-4b4d-8b7a-3cc0c31c4764) 
+Admin profile
 
 
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/4f1a36b1-4109-4a98-bb28-6f7259a5f382) Edit data
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/4f1a36b1-4109-4a98-bb28-6f7259a5f382) 
+Insert Data
 
 
 ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/9bada366-e8ac-46f3-ab0c-d1d33eb837e4) 
+Edit data
 
 
-
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/cfb8ab7a-ba34-443b-810d-9121bd660655) Table pagination
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/cfb8ab7a-ba34-443b-810d-9121bd660655) 
+Table pagination
 
 
 
