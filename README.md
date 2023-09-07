@@ -28,16 +28,27 @@ Project characteristics:💥
 
 6. A fully original, fascinating, and responsive interface
 
-some screenshots: ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/e789fa86-0285-48d4-8b4c-df9ef0c204d4) Homepage
+some screenshots: ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/aa514a07-6202-4e54-b5bd-08d8751d2811)
+ Homepage
 
-
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/283c75fb-a993-410a-9b98-86f94e107494) Login signup page
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/64b2b0b7-0ed6-4e48-a368-709ec894fa20)
+ Login signup page
 
 
 ![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/ed33ba2e-c779-4ea0-a027-c6a1243e4a15) Survey form
 
 
-![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/7c284af0-134c-4c87-b5b7-0a557a2edea2) Admin panel
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/5d485386-e0be-45c8-9e59-74022b8cc2e5)
+Admin panel
+
+
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/2cf7f0fa-03b7-4b4d-8b7a-3cc0c31c4764)
+
+
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/4f1a36b1-4109-4a98-bb28-6f7259a5f382)
+
+
+![image](https://github.com/Priya7319/CodeClauseInternship_completesurveysystem/assets/121280644/9bada366-e8ac-46f3-ab0c-d1d33eb837e4)
 
 
 
