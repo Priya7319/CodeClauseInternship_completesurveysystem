@@ -37,15 +37,13 @@ if(isset($_POST['registerbtn']))
     
         if($query_run)
         {
-            echo "done";
-            $_SESSION['success'] =  "Admin is Added Successfully";
-            header('Location: ../register.php');
+            echo "<script type='text/javascript'>alert('Admin has been added succcessfully.');
+            location='../register.php';</script>"; 
         }
         else 
         {
-            echo "not done";
-            $_SESSION['status'] =  "Admin is Not Added";
-            header('Location: ../register.php');
+            echo "<script type='text/javascript'>alert('Admin can't be added!!');
+            location='../register.php';</script>"; 
         }
     }
     else 
